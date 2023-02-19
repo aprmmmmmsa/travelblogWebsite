@@ -1,0 +1,30 @@
+*{
+    font-family: Prompt;
+    line-height: 1.8rem;
+}
+.bg-image{
+    background-image: url('./img/pic1.jpg');
+    background-size: cover;
+    height: 30em;
+}
+.gallery{ /* คลาส gallery */
+    border-top: 1px solid #353535;
+}
+ul{
+    border-bottom: solid 1px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    width: 12rem;
+    border: 1px solid white;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+ul li a{
+    color: #353535;
+} 
+ul li a:hover{
+    color: #be2004 !important;
+    transition: 1s;
+}

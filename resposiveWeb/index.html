@@ -1,0 +1,236 @@
+<!--กำหนด DOCTYPE-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--ส่วน head-->
+
+<head>
+    <!-- meta ที่กำหนดให้สามารถแสดงได้หลายอุปกรณ์ -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!--External style sheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt" rel="stylesheet">
+    <!--Title-->
+    <title>Angkor Wat</title>
+</head>
+<!--ส่วน Body-->
+
+<body>
+    <!-- div class : container-fluid เพื่อแสดงผลเต็มความกว้างของจอ-->
+    <div class="container-fluid">
+
+        <!-- div กำหนดความกว้างคอลัมน์ และให้ตัวอักษรแสดงตรงกลาง -->
+        <div class="col-sm-4 col-md-12 text-center">
+            <!-- div ส่วนของ header-->
+            <div class="bg-image p-5 text-center text-white">
+                <!-- ul ของ navigation -->
+                <ul class="pb-3">
+                    <li class="p-1 rounded-pill m-1 mx-4"><a href="#Title" class="text-decoration-none">Title</a></li>
+                    <li class="p-1 rounded-pill m-1 mx-4"><a href="#Gallery" class="text-decoration-none">Gallery</a>
+                    </li>
+                </ul>
+                <!-- ส่วนชื่อและหัวเรื่อง -->
+                <h1 class="display-3 my-2 fw-bold"> <a name="Title">Angkor Wat</a><br> นครวัด ที่ทั้งเหมือน
+                    และไม่เหมือนกับที่คิด</h1>
+                <p class="mt-3 py-1">" Wander More "</p>
+                <p class="py-2 text-white">
+                    กัมพูชา | ประเทศเพื่อนบ้าน | 14 กันยายน 2017
+                </p>
+            </div>
+        </div>
+
+        <!-- div กำหนดความกว้างคอลัมน์ 
+            กำหนด margin ซ้าย-ขวา : auto และ padding : 4 -->
+        <div class="col-sm-4 col-md-9 mt-5 p-4 mx-auto">
+            <!--เนื้อหา-->
+            <p class="p-2 text-center">
+                ฉันยืนอออยู่ท่ามกลางฝูงชนมากมาย เหมือนเดินอยู่ในตลาดนัด
+                ท่ามกลางอากาศร้อนอบอ้าวจนต้องอาบเหงื่อต่างน้ำ
+            </p>
+            <!--รูปภาพ กำหนด img-fluid, margin ซ้าย-ขวา เท่ากัน, display: block -->
+            <img src="./img/pic10.jpg" class="img-fluid rounded mx-auto d-block px-4" alt="คนมากมายบนทางเดินนครวัด">
+            <!--เนื้อหา-->
+            <p class="clearfix p-4 text-center">
+                ฉันเดินลงข้างทาง หาที่หลบมุม วางเป้ลงข้างบันไดหินที่ทำขึ้นจากศิลาแลงผุกร่อนแต่ยังคงทนทานสู้กาลเวลา
+                อากาศร้อนๆ ยามบ่ายบังคับให้ฉันต้องรวบผมขึ้นสูง
+                แล้วทนฝืนใส่หมวกเพื่อกันแสงแดดจ้าที่ดูไม่ค่อยจะปรานีกับใคร แปลกที่เขมรอากาศร้อนกว่าบ้านเราเยอะ
+                ทั้งๆที่ดูเหมือนจะมีพื้นที่สีเขียวเยอะกว่า
+                <br> <br>
+                <!-- span ตัวเอียงเน้นคำ -->
+                <span class="fst-italic">‘ไม่ไหวแล้ว พรุ่งนี้ค่อยมาใหม่’ ฉันถอดใจ</span>
+                หลังจากทนฝูงชนที่พลุกพล่านมากเกินไปไม่ไหว <br> <br>
+                ดูเหมือนผู้คนจากทั่วโลกจะพร้อมใจกันหลั่งไหลมาที่นี่ เฉพาะจุดฉันยืนอยู่ คงมีคนไม่น้อยกว่าร้อยคน <br>
+                เด็กเขมรตัวเล็กๆ หลายคน วิ่งตามนักท่องเที่ยวเพื่อขายโปสการ์ดกับพัดไม้กันจ้าละหวั่น <br>
+                ฉันโบกมือเพื่อบอกปัดไปหลายรอบ โชคดีที่เด็กๆ สนใจนักท่องเที่ยวฝรั่งมากกว่า
+            </p>
+        </div>
+
+        <!-- div กำหนดความกว้างคอลัมน์ 
+            กำหนด margin ซ้าย-ขวา : auto และ padding ซ้าย-ขวา : 4 -->
+        <div class="col-sm-4 col-md-9 px-4 mx-auto">
+            <!--เนื้อหา-->
+            <p class="text-center">. <br> . <br> . <br></p>
+            <p class="px-5">
+                วันต่อมา… ฉันตื่นตั้งแต่ตี 5 เพื่อไปดูพระอาทิตย์ขึ้นที่นครวัด หวังไว้ในใจว่าการไปช่วงเช้าๆ
+                อากาศจะร้อนน้อยกว่าช่วงบ่าย ฉันนัดลุงขับรถสามล้อคนหนึ่งให้มารับหน้าที่พัก ลุงก็มารับตรงเวลา
+                รถมอเตอร์ไซค์สามล้อของเราขับไปตามถนนเมืองเสียมเรียบอย่างไม่รีบร้อน
+            </p>
+            <!--รูปภาพ กำหนด img-fluid, clear element, float: end -->
+            <img src="./img/pic5.jpg" class="img-fluid rounded px-4 clearfix float-end" alt="การนั่งรถสามล้อยามเช้ามืด">
+            <!--เนื้อหา กำหนด clear element-->
+            <p class="pt-5 px-5 text-center clearfix">
+                <br><br>
+                <!-- span ตัวเอียงเน้นคำ -->
+                <span class="fst-italic ">อากาศตอนเช้ามืด เป็นอากาศที่หอมดีเสียจริง</span> <br><br><br>
+                ไอน้ำค้างเย็นๆ ตามใบหญ้า เหมือนจะลอยมาให้ได้กลิ่น <br> <br>
+                รถสามล้อของเราวิ่งผ่านป่าข้างทางที่มืดมิด มีแสงไฟจากถนนเป็นช่วงๆ ฉันหันมองข้างทางเป็นระยะๆ พลางสงสัยว่า
+                ป่าในเมืองจะมีสิงสาราสัตว์อยู่หรือเปล่า หากมี…พวกมันจะตื่นหรือหลับอยู่ในเวลานี้…
+            </p>
+        </div>
+
+        <!-- div กำหนดความกว้างคอลัมน์ 
+            กำหนด margin ซ้าย-ขวา : auto และ padding ซ้าย-ขวา : 4 -->
+        <div class="col-sm-4 col-md-9 px-4 mx-auto">
+            <!--รูปภาพ กำหนด img-fluid, float: start -->
+            <img src="./img/pic4.jpg" class="img-fluid rounded px-4 float-start" alt="ผู้คนกำลังจับกลุ่มมากมายหน้าปราสาทนครวัดยามเช้ามืด">
+            <!--เนื้อหา กำหนด clear element-->
+            <p class="px-5 pt-5 clearfix ">
+                ตี 5 ครึ่ง ฉันเดินทางถึงนครวัด มีกลุ่มนักเดินทางมาถึงก่อนหน้าฉันแล้วมากมาย เราต่างพกไฟฉายมา
+                เพราะในยามนั้นทุกอย่างยังมืดมิด เดินไม่เห็นทาง ฉันเดินลึกเข้าไปเรื่อยๆ อย่างคนรู้ทาง
+                ผ่านโป๊ะลอยน้ำขนาดยักษ์ที่ทำไว้เพื่อให้นักท่องเที่ยวเดินข้ามสระบัว 
+                <br><br>
+                นักเดินทางทุกคน ต่างจับจองหามุมถ่ายรูปเพื่อให้ได้ภาพออกมาน่าประทับใจที่สุด ส่วนฉัน เดินออกไปอีกฝั่ง
+                เพื่อบันทึกภาพพวกเขาเอาไว้ ทุกคนยอมตื่นเช้า ไม่ได้กินข้าว เดินทางมาที่เดียวกันราวกับนัดกันไว้
+                <br><br><br><br>
+                <!-- span ตัวเอียงเน้นคำ -->
+                <span class="fst-italic px-5 mx-3">
+                    เพื่อมาให้สถานที่แห่งนี้ประทับรอยความทรงจำให้พวกเขาเอากลับบ้าน <br><br><br>
+                </span>
+                <!-- span ตัวเอียงเน้นคำ -->
+                <span class="fst-italic px-5 mx-5 fs-5">
+                    ฉันถือเป็นเพื่อนร่วมอุดมการณ์
+                </span>
+            </p>
+        </div>
+
+        <!-- div กำหนดความกว้างคอลัมน์ 
+            กำหนด margin ซ้าย-ขวา : auto และ padding ซ้าย-ขวา : 4, บน : 5 -->
+        <div class="col-sm-4 col-md-9 px-4 pt-5 mx-auto">
+            <!--เนื้อหา-->
+            <p class="px-5 text-center">
+                เรายืนรอกันอยู่นาน จนท้องฟ้าเริ่มเป็นสีชมพู ตามมาด้วยสีเหลือง สีส้ม ทุกคนใจจดใจจ่อ
+                ราวกับมาดูโชว์สุดตระการตา
+            </p>
+            <!--รูปภาพ กำหนด img-fluid, float: start, width: 50%-->
+            <img src="./img/pic2.jpg" class="img-fluid rounded px-4 float-start w-50" alt="ปราสาทนครวัดกับท้องฟ้าสีชมพู">
+            <!--รูปภาพ กำหนด img-fluid, width: 50%-->
+            <img src="./img/pic101.jpg" class="img-fluid rounded px-4 w-50" alt="ปราสาทนครวัดกับท้องฟ้าที่เริ่มสว่าง">
+        </div>
+
+        <!-- div กำหนดความกว้างคอลัมน์ 
+            กำหนด margin ซ้าย-ขวา : auto และ padding ซ้าย-ขวา : 4, บน : 1 -->
+        <div class="col-sm-4 col-md-9 px-4 pt-1 mx-auto">
+            <!--เนื้อหา-->
+            <p class="px-5 text-center">
+                . <br> . <br> . <br> พระอาทิตย์ขึ้นแล้ว...
+            </p>
+            <!--รูปภาพ กำหนด img-fluid, margin ซ้าย-ขวา เท่ากัน, display: block-->
+            <img src="./img/pic3.jpg" class="img-fluid rounded px-4 mx-auto d-block" alt="ปราสาทนครวัดกับท้องฟ้าสว่าง">
+            <!--เนื้อหา-->
+            <p class="text-center pt-3 px-5 mb-5 pb-5">
+                <!-- span ตัวเอียงเน้นคำ -->
+                <span class="fst-italic p-2">
+                    ตอนนี้เอง ฉันสนใจดูปฏิกิริยาของคนรอบข้างมากกว่าสนใจพระอาทิตย์เสียอีก…
+                </span>
+                <br><br><br>
+                คู่รักนักเดินทางคู่หนึ่งกุมมือกัน แล้วหันมามอง ยิ้มให้กันอย่างมีความหมาย <br>
+                หญิงฝรั่งคนหนึ่ง เดินไปด้านหน้าใกล้ปราสาทแล้วอ้าแขนกว้างๆ ให้เพื่อนถ่ายภาพ
+                โดยไม่สนว่าตนเองกำลังบังกล้องคนอีกหลายร้อยคน <br>
+                เด็กผู้หญิงชาวจีนตัวเล็กๆ คนนึง ไม่สนใจสิ่งที่พ่อแม่พามาดู
+                เพราะเธอกำลังสนใจลูกแมวที่เดินหาเศษอาหารอยู่บนลานดินมากกว่า <br>
+                วัยรุ่นฝรั่งกลุ่มหนึ่ง เอนกายเอกเขนกอยู่ข้างสระ โดยไม่สนว่าตนเองจะเปื้อนดินโคลน
+                หรือมีกบเขียดริ้นไรมาไต่ขา คงเพราะสิ่งที่เห็นตรงหน้านั้นสำคัญมากกว่า <br><br>
+                <!-- span ตัวเอียงเน้นคำ -->
+                <span class="fst-italic p-2">
+                    ชายฝรั่งสูงวัยในเสื้อซาฟารีคนหนึ่ง ยืนยิ้มเพียงลำพัง…
+                </span> 
+                <br><br>
+                . <br> . <br> . <br> 
+                ในความคิดของใครหลายๆ คนที่อุตส่าห์เดินทางข้ามโลกมาถึงที่นี่เพื่อให้ได้นอนตายตาหลับ
+                <br>
+                ดังคำที่มีคนเคยกล่าวไว้ อาจมองว่า นครวัดที่เต็มไปด้วยผู้คนไม่ได้มีบรรยากาศเงียบสงบดังที่หวัง <br>
+                แม้แต่เสียมเรียบยังถูกทำให้เป็นเมืองท่องเที่ยว บรรยากาศเหมือนเดินในตรอกข้าวสาร
+                <br> . <br> . <br> .
+                <br><br>
+                <!-- span ตัวเอียงเน้นคำ -->
+                <span class="fst-italic p-2">
+                    แต่ตอนเช้ามืดของวันนั้นเองที่ฉันรู้สึกว่า มนต์เสน่ห์ความขลังและความงดงามของนครวัด
+                    ยังคงไม่ทำให้ใครผิดหวังเลย.
+                </span>
+            </p>
+        </div>
+
+        <!-- div กำหนดความกว้างคอลัมน์ 
+            กำหนด margin ซ้าย-ขวา : auto, ล่าง : 1 และ padding ซ้าย-ขวา : 4, บน : 1, ล่าง: 3 และ class gallery -->
+        <div class="col-sm-4 col-md-6 px-4 pt-1 mb-3 pb-3 gallery mx-auto">
+            <!-- h2 ส่วน gallery แสดงรูปภาพ-->
+            <h2 class="float-start display-5 m-5 mb-4"> <a name="Gallery">Gallery</a> </h2>
+            <!-- div carousel แสดงรูปภาพแบบสไลด์ -->
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <!-- div carousel ภายในที่ใช้จัดการรูปภาพ -->
+                <div class="carousel-inner">
+                    <!-- active รูปแรกที่จะขึ้นโชว์บนเพจ -->
+                    <div class="carousel-item active">
+                        <img src="./img/pic7.jpg" class="d-block mx-auto w-100" alt="ผู้หญิงชุดเดรสสีขาวนั่งอยู่ที่ปราสาท">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/pic8.jpg" class="d-block mx-auto w-100" alt="ประติมากรรมบนกำแพง">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/pic6.jpg" class="d-block mx-auto w-100" alt="รากไม้ใหญ่ที่คลุมประตู">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/pic11.jpg" class="d-block mx-auto w-100" alt="พระสงฆ์รูปหนึ่งด้านขวาของวิวต้นตาล">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/pic13.jpg" class="d-block mx-auto w-100" alt="เด็กหญิงชุดน้ำเงินและลูกแมว">
+                    </div>
+                </div>
+                <!-- button กำหนดการเลื่อนของรูปภาพ เมื่อคลิกจะแสดงภาพก่อนหน้า -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <!-- span icon '<' และซ่อนคำว่า Previous-->
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <!-- button กำหนดการเลื่อนของรูปภาพ เมื่อคลิกจะแสดงภาพถัดไป -->
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <!-- span icon '>' และซ่อนคำว่า Next-->
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <!--เนื้อหาในส่วนการอ้างอิงเว็บไซต์-->
+                <p class="my-5">
+                    reference web-site:
+                    <a href="https://wander-more.net/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99/angkor-wat/"
+                        target="_blank">
+                        https://wander-more.net/ประเทศเพื่อนบ้าน/angkor-wat/
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Bootstrap script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
